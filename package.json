@@ -4,7 +4,8 @@
   "description": "Slack app for tracking plazma dets around the office",
   "main": "src/app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build-ts && node dist/app.js",
+    "build-ts": "tsc"
   },
   "repository": {
     "type": "git",
