@@ -23,6 +23,7 @@
   "dependencies": {
     "@slack/bolt": "^2.1.1",
     "dotenv": "^8.2.0",
+    "google-spreadsheet": "^3.0.11",
     "typescript": "^3.9.7"
   }
 }

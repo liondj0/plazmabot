@@ -9,6 +9,11 @@ const app = new App(
     }
 );
 
+app.command('/punish', async cmd => {
+    const text = cmd.body.text;
+    cmd.ack('something')
+});
+
 
 (async () => {
     // Start your app
