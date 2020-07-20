@@ -1,0 +1,27 @@
+{
+  "name": "plazmabot",
+  "version": "1.0.0",
+  "description": "Slack app for tracking plazma dets around the office",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liondj0/plazmabot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liondj0/plazmabot/issues"
+  },
+  "homepage": "https://github.com/liondj0/plazmabot#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@slack/bolt": "^2.1.1",
+    "dotenv": "^8.2.0"
+  }
+}
