@@ -1,4 +1,4 @@
-import {GoogleSpreadsheet} from "google-spreadsheet";
+import {GoogleSpreadsheet, GoogleSpreadsheetRow} from "google-spreadsheet";
 import {GOOGLE_SHEETS} from "./secrets";
 
 let doc: GoogleSpreadsheet;
@@ -18,12 +18,21 @@ export const initSheet = async () => {
 export const addRow = async (data: string[], type: string) => {
     const sheet = doc.sheetsByIndex[0];
     const row = {
-        user: data[0],
+        user: data[0]?.trim(),
         date: new Date(),
-        reason: data[1],
-        link: data[2],
+        reason: data[1]?.trim(),
+        link: data[2]?.trim(),
         type: type
     };
     //@ts-ignore
     await sheet.addRows([row]);
 }
+
+export const getUserBalance = async (user: string) => {
+    const sheet = doc.sheetsByIndex[0];
+    const rows = await sheet.getRows();
+    const userRows = rows.filter(row => row.user === user);
+    let userBalance = 0;
+    userRows.forEach(u => u.type === 'reward' ? --userBalance : ++userBalance)
+    return userBalance
+};
