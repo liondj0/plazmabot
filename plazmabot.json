@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "plazmabot",
+  "private_key_id": "d04fa3747a85ccb2a3d1c22134723f001efe4396",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCP99zvkjvu5dwM\nlBtoyndpL0WoB5cKNR6cGkiSPxnPoDhoPGh29SbXPOqZ1EvUgL2lNnwUBh2rHYX8\nX/tfdE/Y95W7emFXZN2eedxOMNzzxNeMN0+Xh0HMbNRP6ckobgATsoRzKngy8nAt\nIVCjnCcvs6PCZ/9SapXQGGRCWhPVVVJm/D93TBj3aUPU6B9NS6gMchPq/LbiUeHg\nS6RprWpU9sOk7PrBysENoUGR6u3PRU0QEtX762BkOXSmdyAprM0KHIFb37XDC//6\nborkfeBNJ7A2skSim6YfJu/49hxrhiXRJYXhG5lbJuheRrzQOK6CjhUAvQxBhvpA\nT2+49cyZAgMBAAECggEAEeEbbBlCHjInuNwv5zy1xbdcNDj1Fgxwx7wv5RG3F+Ty\n/Gb8JkHd1/81t3L5E+QFKV5x3F7CEn0xJZ2Z70nXnL9qtgTFz/+z0jmaFY/V8OQy\nTLSVyuC+WC/v0hjbpYy7r7aM4myUzuby7XfkttzutOrfXIZj3A1mm5hb4y2ipuyo\n9eQF/RV1ybHt8BDYjREwaLEWLaCnIRKZAE/3sjVDHWaRY+W6ROp92TMg7bYMkB5R\nOnUuNCMvhIhruIiCFfMPiUQ4Il6r4qvv6/pQDjpqhYe4rfSYBe2T+fUMlVPWSf/b\nzbfj3+Agyd0mGPGX2TUbg3Nd4ES0oa2gnFITKIOPTQKBgQDKan1uSIlXcs77gpXP\nT8/fayTOCxGGOOcvE5DV8+1DRUx2PU8cQjx7gc779b4+XQ7UF36er2GltlMMLBtK\n/mzd6IK16qzMUp/j3EOmn9Rj5gQsupo9FGBHobg4sKb963HCSGTF1ys2LaducqFV\nlWsZNHH3sj3ccPStlDkqe58JQwKBgQC2FG6XRf2kEpe3Aa57tph0TphTOE7v0DUh\nfMah+qykKY+7EYZWMKV945vac/pJyH5VNyiXwcDAkeiJ+jXBJm7I15Eh46oMuBxD\nH3MjqVRxjZlE1uxHQ5LoPUxJ8DHRCRYf/EKCNWhckp93Nmu5XG2gnF6w9ffoj3xu\nI+9I1pbW8wKBgACft2dBnfrBBdZMnr2W12Mu51wjOJibUEsa2lVufQq6CfRLWBUU\nNy+CROsN5No4WzVYJTHEBJ8IItVkxWjDw/4jG1QINyQiFRAUu7ilwXfVW6nvoU4S\n5AEUhIbYNIuP0DfzFSxu71kpZty2Sb0DyuK3AKrsx7gIORjX3h09aE4VAoGBAIua\nTtCdUUOjHb+rAmTIM0u5lwD3g05LjPEIAiPfVs7nLtR3M1CSK9DB2pU7pwM7PeGI\nUQ9J9sevF2Py+5QEK5zB6vzY2WC3KLQuQNFu2tfVgVZOkwpwvQpjNULbbtae6N/N\nQhEjccjIgoucpiuQul0Sh2eWr2UX3odz9dsa7LwRAoGAKnr/+mNWMpPZiWHMAwyE\nvyfx/MrVwpbI4bEuqyVPpvhamic3xQbfqMz/RLJ012FX3sABGIg8VjG9iOKd2kXY\nm6y2JojXhglVQrjhsD20+SHe6WomMnTo2REDvSg28E3B1zs+8WdxSBn9t86vCv2L\nKNjYMqG+Ibv7LINUFlUeRug=\n-----END PRIVATE KEY-----\n",
+  "client_email": "leo-533@plazmabot.iam.gserviceaccount.com",
+  "client_id": "102184526284246573875",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/leo-533%40plazmabot.iam.gserviceaccount.com"
+}

@@ -1,5 +1,9 @@
 import {App} from "@slack/bolt";
 import {SLACK} from "./util/secrets";
+import * as Sheet from './util/sheet';
+import {punish} from "./util/Commands";
+
+
 
 
 const app = new App(
@@ -10,12 +14,12 @@ const app = new App(
 );
 
 app.command('/punish', async cmd => {
-    const text = cmd.body.text;
-    cmd.ack('something')
+    await punish(app, cmd);
 });
 
 
 (async () => {
+    await Sheet.initSheet();
     // Start your app
     await app.start(process.env.PORT || 3000);
 
