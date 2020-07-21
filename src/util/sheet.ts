@@ -6,8 +6,8 @@ let doc: GoogleSpreadsheet;
 export const initSheet = async () => {
     doc = new GoogleSpreadsheet(GOOGLE_SHEETS.sheetId!);
     await doc.useServiceAccountAuth({
-        client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL!,
-        private_key: process.env.GOOGLE_PRIVATE_KEY!,
+        client_email: GOOGLE_SHEETS.email!,
+        private_key: GOOGLE_SHEETS.privateKey!,
     });
     await doc.loadInfo();
     const sheet = doc.sheetsByIndex[0];
