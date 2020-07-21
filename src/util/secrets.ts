@@ -22,5 +22,5 @@ export const SLACK = {
 export const GOOGLE_SHEETS = {
     sheetId: process.env.GOOGLE_SHEETS_SHEET_ID,
     email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-    privateKey: process.env.GOOGLE_PRIVATE_KEY
+    privateKey: process.env.GOOGLE_PRIVATE_KEY!.replace(/\\n/g, '\n')
 };
