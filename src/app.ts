@@ -10,7 +10,7 @@ const app = new App(
     }
 );
 
-app.command('/punish', async cmd => {
+app.command('/report', async cmd => {
     await punish(app, cmd);
 });
 
