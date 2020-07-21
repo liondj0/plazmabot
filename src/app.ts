@@ -1,10 +1,11 @@
 import {App} from "@slack/bolt";
-import {SLACK} from "./util/secrets";
+import {GOOGLE_SHEETS, SLACK} from "./util/secrets";
 import * as Sheet from './util/sheet';
 import {punish, reward, count} from "./util/Commands";
 
-
-
+console.log(1)
+console.log(SLACK);
+console.log(SLACK, GOOGLE_SHEETS)
 
 const app = new App(
     {
@@ -26,7 +27,9 @@ app.command('/plazma-count', async cmd => {
 });
 
 (async () => {
+    console.log('here')
     await Sheet.initSheet();
+    console.log('here2')
     // Start your app
     await app.start(process.env.PORT || 3000);
 
